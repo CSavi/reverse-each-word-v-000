@@ -5,6 +5,6 @@ require 'pry'
   sentence.split("").each do |word|
     reversed_array << word.reverse 
   end 
-  reversed_array.join("")
+  reversed_array.join(" ")
 end  
   
